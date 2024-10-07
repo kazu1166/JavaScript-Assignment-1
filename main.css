@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.book {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  padding: 2%;
+  background-color: #ffd932;
+}
+
+.display {
+  height: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.display p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+table {
+  margin: 0 auto;
+  width: 98%;
+  /* border-collapse: collapse; */
+  font-size: 1.5rem;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  width: 15%;
+}
+
+td:nth-child(1),
+th:nth-child(1),
+.addButtons .column:nth-child(1) .add {
+  background-color: #a359b9;
+}
+
+td:nth-child(2),
+th:nth-child(2),
+.addButtons .column:nth-child(2) .add {
+  background-color: #5db1ff;
+}
+
+td:nth-child(3),
+th:nth-child(3),
+.addButtons .column:nth-child(3) .add {
+  background-color: #50ff70;
+}
+
+td:nth-child(4),
+th:nth-child(4),
+.addButtons .column:nth-child(4) .add {
+  background-color: #ffb129;
+}
+
+td:nth-child(5),
+th:nth-child(5),
+.addButtons .column:nth-child(5) .add {
+  background-color: #ff5eef;
+}
+
+.addButtons {
+  width: 98%;
+  margin: 2% auto;
+  display: flex;
+}
+
+.column {
+  width: 20%;
+}
+
+button.add,
+button#read,
+button#reset,
+button#random {
+  width: 70px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.readReset {
+  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+button#random {
+  background-color: rgb(255, 192, 241);
+}
+button#read {
+  background-color: rgb(255, 36, 36);
+  margin: 0 0 0 10%;
+}
+button#reset {
+  background-color: #2efce8;
+  margin: 0 10% 0 10%;
+}
